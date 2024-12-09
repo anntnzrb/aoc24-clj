@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :deps  {org.clojure/clojure         {:mvn/version "1.12.0"}
+         io.github.nextjournal/clerk {:mvn/version "0.17.1102"}}
+ :aliases
+ {:clerk-serve {:exec-fn nextjournal.clerk/serve!
+                :exec-args {:browse true :watch-paths ["src"]}}}}
