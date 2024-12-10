@@ -5,3 +5,7 @@ default:
 # format source tree
 fmt:
     treefmt
+
+# server notebook
+serve:
+	clj -X:clerk-serve
