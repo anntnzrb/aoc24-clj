@@ -17,6 +17,7 @@
         hooks = {
           flake-checker.enable = true;
           actionlint.enable = true;
+          cljfmt.enable = true;
 
           deadnix = {
             enable = true;
