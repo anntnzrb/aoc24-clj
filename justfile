@@ -8,4 +8,4 @@ fmt:
 
 # server notebook
 serve:
-	clj -X:clerk-serve
+    clj -X:clerk-serve
